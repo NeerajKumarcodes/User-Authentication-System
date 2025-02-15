@@ -70,7 +70,7 @@ cd User-Authentication-System
 
 ### **2️⃣ Install Dependencies**
 ```sh
-npm init
+npm install
 ```
 
 ### **3️⃣ Run Server**
