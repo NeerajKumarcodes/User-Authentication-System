@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <div class="profile-container">
+        <h2>User Profile</h2>
+        <div id="user-info">
+            <p><strong>Name:</strong> <span id="user-name">Loading...</span></p>
+            <p><strong>Email:</strong> <span id="user-email">Loading...</span></p>
+        </div>
+        <button id="logout-btn" class="btn">Log Out</button>
+    </div>
+
+    <script src="js/auth.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", loadProfile);
+    document.getElementById("logout-btn")?.addEventListener("click", logOut);
+</script>
+
+</body>
+</html>
