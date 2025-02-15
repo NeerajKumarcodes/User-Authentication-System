@@ -4,8 +4,10 @@
   "type": "module",
   "main": "./server.js",
   "scripts": {
-    "dev": "nodemon backend/server.js",
-    "test": "mocha --loader ts-node/esm"
+    "dev": "NODE_ENV=development nodemon backend/server.js",
+    "test": "mocha --loader ts-node/esm",
+    "start": "NODE_ENV=production node backend/server.js",
+    "build": "npm install"
   },
   "keywords": [],
   "author": "",
