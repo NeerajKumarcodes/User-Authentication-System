@@ -33,6 +33,10 @@ if(NODE_ENV === "production") {
   res.sendFile(path.resolve(__dirname, "frontend", "index.html"));
   });
 
+  app.get("/frontend/index.html", (req, res) => {
+  res.sendFile(path.resolve(__dirname, "frontend", "index.html"));
+  });
+
   app.get("/frontend/signup.html", (req, res) => {
     res.sendFile(path.resolve(__dirname, "frontend", "signup.html"));
   });
