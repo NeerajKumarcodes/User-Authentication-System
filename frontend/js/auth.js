@@ -1,5 +1,5 @@
-const API_BASE_URL = "http://localhost:5000/api/auth"; // Backend API Base URL
-const API_USER_URL = "http://localhost:5000/api/user"; // Backend User route URL
+const API_BASE_URL = "https://user-authentication-system-fjus.onrender.com/api/auth"; // Backend API Base URL
+const API_USER_URL = "https://user-authentication-system-fjus.onrender.com/api/user"; // Backend User route URL
 
 // Load Profile
 async function loadProfile() {
