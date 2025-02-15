@@ -105,6 +105,11 @@ npm test
 
 ---
 
+### 🌎 Currently published at:
+[Homepage](https://user-authentication-system-fjus.onrender.com/)
+
+---
+
 ## 📌 Author
 
 **Neeraj Kumar**  
